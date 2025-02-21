@@ -1,26 +1,27 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
+
 using namespace std;
 int main(){
+    int m;
+    cin>>m;
     int n;
     cin>>n;
-    vector<int>v(n);
-    for(int i=0;i<n;i++){
+    vector<int>v(m);
+    vector<int>v1(n);
+    for(int i=0;i<m;i++){
         cin>>v[i];
+
     }
-    // reverse(v.begin(),v.end());
-    // for(int i=0;i<n;i++){
-    //     cout<<v[i]<<" ";
-    // }
-    //  cout<<endl;
-    reverse(v.begin()+1,v.end());
-    for(int i=0;i<n;i++){
-        cout<<v[i]<<" ";
+     for(int i=0;i<n;i++){
+        cin>>v1[i];
+
     }
-    cout<<endl;
-    reverse(v.begin()+1,v.begin()+4);
-    for(int i=0;i<n;i++){
-        cout<<v[i]<<" ";
+    vector<int>v3(m+n);
+    for(int i=0;i<(m+n);i++){
+       
     }
+
+
 }
